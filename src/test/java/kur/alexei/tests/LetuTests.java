@@ -1,6 +1,7 @@
 package kur.alexei.tests;
 
 import io.qameta.allure.Description;
+import kur.alexei.helpers.DriverUtils;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -13,6 +14,39 @@ import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class LetuTests extends TestBase {
+
+
+    @Test
+    @Tag("letuMainPage")
+    @Description("Main page Tests for letu.ru")
+    @DisplayName("Page title should have header text")
+    void titleTest() {
+        step("Open url 'https://www.letu.ru/'", () ->
+                open("https://www.letu.ru/"));
+
+        step("Page title should have text 'L'Etoile'", () -> {
+            String expectedTitle = "L'Etoile";
+            String actualTitle = title();
+
+            assertThat(actualTitle).isEqualTo(expectedTitle);
+        });
+    }
+
+    @Test
+    @Tag("letuMainPage")
+    @Description("Main page Tests for letu.ru")
+    @DisplayName("Page console log should not have errors")
+    void consoleShouldNotHaveErrorsTest() {
+        step("Open url 'https://www.letu.ru/'", () ->
+                open("https://www.letu.ru/"));
+
+        step("Console logs should not contain text 'SEVERE'", () -> {
+            String consoleLogs = DriverUtils.getConsoleLogs();
+            String errorText = "SEVERE";
+
+            assertThat(consoleLogs).doesNotContain(errorText);
+        });
+    }
 
     @Test
     @Tag("letuMainPage")
