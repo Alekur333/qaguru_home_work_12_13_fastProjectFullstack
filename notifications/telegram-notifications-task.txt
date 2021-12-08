@@ -7,4 +7,13 @@ Java \
 "-Dconfig.file=notifications/telegram.json" \
 -jar allure-notifications-3.1.2.jar
 
-//// remote
+//// remote для Jenlins Post build псоле Allure
+java  \
+"-DprojectName=${PROJECT_NAME}" \  		//внутренняя переменная jenkins
+"-Denv=${ENVIRONMENT}" \
+"-DreportLink=${BUILD_URL}" \.   	 	//внутренняя переменная jenkins
+"-Dcomm=Any comment here" \
+"-Dconfig.file= notifications/telegram.json " \
+-jar allure-notifications-3.1.2.jar
+
+
