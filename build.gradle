@@ -77,3 +77,7 @@ task demowebshop(type: Test) {
         includeTags 'demowebshop'
     }
 }
+
+
+
+
