@@ -2,6 +2,7 @@ package kur.alexei.tests;
 
 import io.qameta.allure.Description;
 import kur.alexei.helpers.DriverUtils;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -33,6 +34,7 @@ public class LetuTests extends TestBase {
     }
 
     @Test
+    @Disabled("For Allure report")
     @Tag("letuMainPage")
     @Description("Main page Tests for letu.ru")
     @DisplayName("Page console log should not have errors")
@@ -49,6 +51,7 @@ public class LetuTests extends TestBase {
     }
 
     @Test
+    @Deprecated
     @Tag("letuMainPage")
     @Tag("mainMenuItems")
     @Description("Main page Tests for letu.ru")
@@ -75,6 +78,12 @@ public class LetuTests extends TestBase {
 
         step("'Clean beauty' exist in main menu items", () -> {
             $(".main-menu-rd-items").$(withText("Clean beauty")).shouldBe(exist);
+        });
+
+        step("Console logs should not contain text 'SEVERE'", () -> {
+            String consoleLogs = DriverUtils.getConsoleLogs();
+            String errorText = "SEVERE";
+            assertThat(consoleLogs).doesNotContain(errorText);
         });
 
     }

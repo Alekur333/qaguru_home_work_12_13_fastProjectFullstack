@@ -40,3 +40,5 @@ target/
 .todo
 *.properties
 .allure-notifications-3.1.2.jar
+
+
