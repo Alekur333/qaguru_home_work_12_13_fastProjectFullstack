@@ -59,4 +59,11 @@ gradle clean letuMainPageTest // to run all tests of main page
 gradle clean letuParfumeTest // to run tests with tag "parfyumeriya"
 ```
 
+## Jenkins parameters
+<p  align="left">
+<code>
+<img width="25%" title="Jenkins-params" src="readme-pics/jenkins-parameters.png">
+</code>
+</p>
+
 :heart: <a target="_blank" href="https://www.linkedin.com/in/alexei-kurochkin-5693a01a2/">My linkedIn profile</a><br/>
