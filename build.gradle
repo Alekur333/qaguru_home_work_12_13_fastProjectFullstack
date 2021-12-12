@@ -38,8 +38,8 @@ dependencies {
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
 }
 
 tasks.withType(Test) {
@@ -65,11 +65,17 @@ tasks.withType(Test) {
     }
 }
 
-task letu(type: Test) {
+task letuParfumeTest(type: Test) {
     useJUnitPlatform {
         includeTags 'parfyumeriya'
-        excludeTags 'mainMenuItems', 'cleanBeauty', 'exclusive', 'expressDelivery', 'demowebshop'
     }
+}
+
+task letuMainPageTest(type: Test) {
+    useJUnitPlatform {
+        includeTags 'letuMainPage'
+    }
+
 }
 
 
