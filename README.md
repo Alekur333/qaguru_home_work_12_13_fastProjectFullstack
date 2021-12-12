@@ -93,6 +93,13 @@ gradle clean letuParfumeTest // to run tests with tag "parfyumeriya"
 </code>
 </p>
 
+## Allure video result
+<p  align="left">
+<code>
+<img width="70%" title="Allure video" src="readme-pics/allure-video.gif">
+</code>
+</p>
+
 # Telegram notification
 <p  align="left">
 <code>
