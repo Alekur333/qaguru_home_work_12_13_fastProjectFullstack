@@ -50,7 +50,7 @@ Serve report:
 allure serve build/allure-results
 ```
 
-###### For further development there are some example tests in src/test/java/kur/alexei/tests
+###### For further development there are some example tests in [src/test/java/kur/alexei/tests](https://github.com/Alekur333/qaguru_home_work_12_13_fastProjectFullstack/blob/main/src/test/java/kur/alexei/tests/LetuTests.java)
 * remove @Disabled("...") annotation to run desabled tests
 ```bash
 gradle clean letuMainPageTest // to run all tests of main page
