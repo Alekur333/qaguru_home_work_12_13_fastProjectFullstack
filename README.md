@@ -62,7 +62,7 @@ gradle clean letuParfumeTest // to run tests with tag "parfyumeriya"
 ## Jenkins parameters
 <p  align="left">
 <code>
-<img width="100%" title="Jenkins-params" src="readme-pics/jenkins-parameters.png">
+<img width="70%" title="Jenkins-params" src="readme-pics/jenkins-parameters.png">
 </code>
 </p>
 
