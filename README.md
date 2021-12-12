@@ -65,7 +65,7 @@ gradle clean letuParfumeTest // to run tests with tag "parfyumeriya"
 
 <p  align="left">
 <code>
-<img width="70%" title="Jenkins-params" src="readme-pics/jenkins-parameters.png">
+<img width="80%" title="Jenkins-params" src="readme-pics/jenkins-parameters.png">
 </code>
 </p>
 
@@ -73,7 +73,7 @@ gradle clean letuParfumeTest // to run tests with tag "parfyumeriya"
 
 <p  align="left">
 <code>
-<img width="70%" title="Jenkins-job" src="readme-pics/jenkins-job.png">
+<img width="80%" title="Jenkins-job" src="readme-pics/jenkins-job.png">
 </code>
 </p>
 
@@ -82,28 +82,28 @@ gradle clean letuParfumeTest // to run tests with tag "parfyumeriya"
 ## Allure overview
 <p  align="left">
 <code>
-<img width="70%" title="Allure overview" src="readme-pics/allure-overview.png">
+<img width="80%" title="Allure overview" src="readme-pics/allure-overview.png">
 </code>
 </p>
 
 ## Allure test result
 <p  align="left">
 <code>
-<img width="70%" title="Allure test result" src="readme-pics/allure-test-result.png">
+<img width="80%" title="Allure test result" src="readme-pics/allure-test-result.png">
 </code>
 </p>
 
 ## Allure video result
 <p  align="left">
 <code>
-<img width="70%" title="Allure video" src="readme-pics/allure-video.gif">
+<img width="80%" title="Allure video" src="readme-pics/allure-video.gif">
 </code>
 </p>
 
 # Telegram notification
 <p  align="left">
 <code>
-<img width="70%" title="Telegram notification" src="readme-pics/telega-notifi.png">
+<img width="80%" title="Telegram notification" src="readme-pics/telega-notifi.png">
 </code>
 </p>
 
