@@ -2,7 +2,7 @@
 
 ##Used tools and libraries
 
-<p  align="center">
+<p  align="left">
 <code>
 <img width="5%" title="Java" src="readme-pics/Java_icon.png">
 <img width="5%" title="JUnit5" src="readme-pics/JUnit5_icon.png">
