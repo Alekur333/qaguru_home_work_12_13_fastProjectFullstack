@@ -1,4 +1,5 @@
-# Here are a number of automated tests of main page letu.ru
+# Here are a number of automated tests of main page [Л'Этуаль]
+(https://www.letu.ru/)
 
 ##Used tools and libraries
 
@@ -53,7 +54,7 @@ allure serve build/allure-results
 ###### For further development there are some example tests in src/test/java/kur/alexei/tests
 * remove @Disabled("...") annotation to run desabled tests
 ```bash
-gradle clean letuMainPageTest // to run all tests for main page
+gradle clean letuMainPageTest // to run all tests of main page
 ```
 ```bash
 gradle clean letuParfumeTest // to run tests with tag "parfyumeriya"
