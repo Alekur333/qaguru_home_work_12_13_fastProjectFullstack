@@ -5,15 +5,15 @@
 <p  align="center">
 <code>
 <img width="5%" title="Java" src="readme-pics/Java_icon.png">
-<img width="5%" title="Gradle" src="readme-pics/Gradle_icon.svg">
-<img width="5%" title="IntelliJ IDEA" src="readme-pics/Intellij_icon.png">
-<img width="5%" title="Selenide" src="readme-pics/Selenide_icon.svg">
-<img width="5%" title="Selenoid" src="readme-pics/Selenoid_icon.svg">
 <img width="5%" title="JUnit5" src="readme-pics/JUnit5_icon.png">
-<img width="5%" title="Github" src="readme-pics/Github_icon.png">
+<img width="5%" title="Selenide" src="readme-pics/Selenide_icon.svg">
+<img width="5%" title="Gradle" src="readme-pics/Gradle_icon.svg">
+<img width="5%" title="Selenoid" src="readme-pics/Selenoid_icon.svg">
+<img width="5%" title="Github" src="readme-pics/Github_icon.jpg">
 <img width="5%" title="Jenkins" src="readme-pics/Jenkins_icon.svg">
 <img width="5%" title="Allure Report" src="readme-pics/Allure_Report_icon.svg">
 <img width="5%" title="Telegram" src="readme-pics/Telegram_icon.png">
+<img width="5%" title="IntelliJ IDEA" src="readme-pics/Intellij_icon.png">
 </code>
 </p>
 
