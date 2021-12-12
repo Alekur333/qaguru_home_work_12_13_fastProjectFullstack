@@ -1,5 +1,4 @@
-# Here are a number of automated tests of main page [Л'Этуаль]
-(https://www.letu.ru/)
+# Here are a number of automated tests of main page [Л'Этуаль](https://www.letu.ru/)
 
 ##Used tools and libraries
 
