@@ -1,10 +1,21 @@
-# qaguru_home_work_12_13
+# Here are a number of automated tests of main page letu.ru
 
-# Project in Allure TestOps with manual & automated tests
-<a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
+##Used tools and libraries
 
-# Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/%s">jenkins.autotests.cloud/job/%s</a>
+<p  align="center">
+<code>
+<img width="5%" title="Java" src="readme-pics/Java_icon.png">
+<img width="5%" title="Gradle" src="readme-pics/Gradle_icon.svg">
+<img width="5%" title="IntelliJ IDEA" src="readme-pics/Intellij_icon.png">
+<img width="5%" title="Selenide" src="readme-pics/Selenide_icon.svg">
+<img width="5%" title="Selenoid" src="readme-pics/Selenoid_icon.svg">
+<img width="5%" title="JUnit5" src="readme-pics/JUnit5_icon.png">
+<img width="5%" title="Github" src="readme-pics/Github_icon.png">
+<img width="5%" title="Jenkins" src="readme-pics/Jenkins_icon.svg">
+<img width="5%" title="Allure Report" src="readme-pics/Allure_Report_icon.svg">
+<img width="5%" title="Telegram" src="readme-pics/Telegram_icon.png">
+</code>
+</p>
 
 
 # USAGE examples
@@ -27,7 +38,11 @@ gradle clean test
 
 Run tests with not filled remote.properties:
 ```bash
-gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
+gradle clean 
+-DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ 
+-DvideoStorage=https://selenoid.autotests.cloud/video/ 
+-Dthreads=1 
+test
 ```
 
 Serve report:
@@ -35,12 +50,13 @@ Serve report:
 allure serve build/allure-results
 ```
 
-
-###### For further development there are some example tests in src/test/java/cloud.autotests/tests/demowebshop
-* remove @Disabled("...") annotation to run tests
+###### For further development there are some example tests in src/test/java/kur/alexei/tests
+* remove @Disabled("...") annotation to run desabled tests
 ```bash
-gradle clean demowebshop
+gradle clean letuMainPageTest // to run all tests for main page
+```
+```bash
+gradle clean letuParfumeTest // to run tests with tag "parfyumeriya"
 ```
 
-:heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
-:blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
+:heart: <a target="_blank" href="https://www.linkedin.com/in/alexei-kurochkin-5693a01a2/">My linkedIn profile</a><br/>
