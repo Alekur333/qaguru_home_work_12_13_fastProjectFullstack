@@ -59,7 +59,7 @@ gradle clean letuMainPageTest // to run all tests of main page
 gradle clean letuParfumeTest // to run tests with tag "parfyumeriya"
 ```
 
-#Jenkins
+# Jenkins
 
 ## Jenkins parameters
 
@@ -77,11 +77,28 @@ gradle clean letuParfumeTest // to run tests with tag "parfyumeriya"
 </code>
 </p>
 
-## Allure Report
+# Allure Report
+
+## Allure overview
 <p  align="left">
 <code>
-<img width="70%" title="Jenkins-params" src="readme-pics/jenkins-parameters.png">
+<img width="70%" title="Allure overview" src="readme-pics/allure-overview.png">
 </code>
 </p>
+
+## Allure test result
+<p  align="left">
+<code>
+<img width="70%" title="Allure test result" src="readme-pics/allure-test-result.png">
+</code>
+</p>
+
+# Telegram notification
+<p  align="left">
+<code>
+<img width="70%" title="Telegram notification" src="readme-pics/telega-notifi.png">
+</code>
+</p>
+
 
 :heart: <a target="_blank" href="https://www.linkedin.com/in/alexei-kurochkin-5693a01a2/">My linkedIn profile</a><br/>
