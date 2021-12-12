@@ -59,7 +59,25 @@ gradle clean letuMainPageTest // to run all tests of main page
 gradle clean letuParfumeTest // to run tests with tag "parfyumeriya"
 ```
 
+#Jenkins
+
 ## Jenkins parameters
+
+<p  align="left">
+<code>
+<img width="70%" title="Jenkins-params" src="readme-pics/jenkins-parameters.png">
+</code>
+</p>
+
+## Jenkins job
+
+<p  align="left">
+<code>
+<img width="70%" title="Jenkins-job" src="readme-pics/jenkins-job.png">
+</code>
+</p>
+
+## Allure Report
 <p  align="left">
 <code>
 <img width="70%" title="Jenkins-params" src="readme-pics/jenkins-parameters.png">
