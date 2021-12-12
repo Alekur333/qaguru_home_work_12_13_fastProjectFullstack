@@ -34,7 +34,6 @@ public class LetuTests extends TestBase {
     }
 
     @Test
-    @Disabled("For Allure report")
     @Tag("letuMainPage")
     @Description("Main page Tests for letu.ru")
     @DisplayName("Page console log should not have errors")
@@ -51,7 +50,6 @@ public class LetuTests extends TestBase {
     }
 
     @Test
-    @Deprecated
     @Tag("letuMainPage")
     @Tag("mainMenuItems")
     @Description("Main page Tests for letu.ru")
@@ -67,6 +65,7 @@ public class LetuTests extends TestBase {
     }
 
     @Test
+    @Disabled("For Allure report")
     @Tag("letuMainPage")
     @Tag("cleanBeauty")
     @Description("Main page Tests for letu.ru")
@@ -78,12 +77,6 @@ public class LetuTests extends TestBase {
 
         step("'Clean beauty' exist in main menu items", () -> {
             $(".main-menu-rd-items").$(withText("Clean beauty")).shouldBe(exist);
-        });
-
-        step("Console logs should not contain text 'SEVERE'", () -> {
-            String consoleLogs = DriverUtils.getConsoleLogs();
-            String errorText = "SEVERE";
-            assertThat(consoleLogs).doesNotContain(errorText);
         });
 
     }
@@ -123,6 +116,7 @@ public class LetuTests extends TestBase {
     }
 
     @Test
+    @Disabled("For Allure report")
     @Tag("letuMainPage")
     @Tag("exclusive")
     @Description("Main page Tests for letu.ru")
@@ -141,6 +135,7 @@ public class LetuTests extends TestBase {
     }
 
     @Test
+    @Deprecated
     @Tag("letuMainPage")
     @Tag("expressDelivery")
     @Description("Main page Tests for letu.ru")
@@ -175,6 +170,7 @@ public class LetuTests extends TestBase {
     }
 
     @Test
+    @Disabled("For Allure report")
     @Tag("letuMainPage")
     @Tag("parfyumeriya")
     @Description("Main page Tests for letu.ru")

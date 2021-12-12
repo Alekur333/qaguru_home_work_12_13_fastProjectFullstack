@@ -72,11 +72,7 @@ task letu(type: Test) {
     }
 }
 
-task demowebshop(type: Test) {
-    useJUnitPlatform {
-        includeTags 'demowebshop'
-    }
-}
+
 
 
 
