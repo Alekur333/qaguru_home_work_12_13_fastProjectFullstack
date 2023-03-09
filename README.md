@@ -2,7 +2,7 @@
 
 ##Used tools and libraries
 
-<p align="left">
+<div align="left">
 <code>
 <img width="4%" title="Java" src="readme-pics/Java_icon.png">
 <img width="4%" title="JUnit5" src="readme-pics/JUnit5_icon.png">
@@ -15,7 +15,7 @@
 <img width="4%" title="Telegram" src="readme-pics/Telegram_icon.png">
 <img width="4%" title="IntelliJ IDEA" src="readme-pics/Intellij_icon.png">
 </code>
-</p>
+</div>
 
 
 # USAGE examples
