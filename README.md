@@ -2,8 +2,8 @@
 
 ##Used tools and libraries
 
-<div align="left">
-<code>
+<p align="left">
+
 <img width="4%" title="Java" src="readme-pics/Java_icon.png">
 <img width="4%" title="JUnit5" src="readme-pics/JUnit5_icon.png">
 <img width="4%" title="Selenide" src="readme-pics/Selenide_icon.svg">
@@ -14,8 +14,8 @@
 <img width="4%" title="Allure Report" src="readme-pics/Allure_Report_icon.svg">
 <img width="4%" title="Telegram" src="readme-pics/Telegram_icon.png">
 <img width="4%" title="IntelliJ IDEA" src="readme-pics/Intellij_icon.png">
-</code>
-</div>
+
+</p>
 
 
 # USAGE examples
